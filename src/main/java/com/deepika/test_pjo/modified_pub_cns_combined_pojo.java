@@ -1,4 +1,4 @@
-package com.deepika.list_test_rm_proj_multifire_scntwo;
+package com.deepika.test_pjo;
 
 import java.math.*;
 import java.lang.Object.*;
@@ -1866,10 +1866,10 @@ private java.util.Date data_mail_date = new Date();
 		private java.lang.String data_cns_date_values_0;
 		private java.lang.Long panelist_user_defined_fields_count;
 		private java.lang.Long data_user_defined_fields_count;
-		private java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.data_bus_dim> data_bus_dim;
+	/*	private java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.data_bus_dim> data_bus_dim;
 		private java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.panelist_bus_dim> panelist_bus_dim;
 		private java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.data_user_defined_multi> data_user_defined_multi;
-		private java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.panelist_user_defined_multi> panelist_user_defined_multi;
+		private java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.panelist_user_defined_multi> panelist_user_defined_multi;*/
 		private java.util.List<java.util.List<java.lang.String>> listOfStringLists = new java.util.ArrayList<java.util.List<java.lang.String>>();
 		private java.util.List<java.util.List<java.math.BigDecimal>> listOfBigDecimalLists = new java.util.ArrayList<java.util.List<java.math.BigDecimal>>();
 
@@ -13433,7 +13433,7 @@ private java.util.Date data_mail_date = new Date();
 			this.data_user_defined_fields_count = data_user_defined_fields_count;
 		}
 		
-		public java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.data_bus_dim> getData_bus_dim()
+	/*	public java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.data_bus_dim> getData_bus_dim()
 			{
 				return this.data_bus_dim;
 			}
@@ -13472,7 +13472,7 @@ private java.util.Date data_mail_date = new Date();
 			public void setPanelist_user_defined_multi(java.util.List<com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish_1.panelist_user_defined_multi> panelist_user_defined_multi)
 			{
 				 this.panelist_user_defined_multi = panelist_user_defined_multi;
-			}
+			}*/
 			
 
 	public java.math.BigDecimal decimalRound(java.math.BigDecimal num, java.lang.Integer num_places){
